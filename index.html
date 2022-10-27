@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="script.js" defer></script>
     <title>Document</title>
 </head>
 <body>
@@ -30,22 +31,28 @@
               </ul>
             </div>
           </nav>
-        <div class="detail">
-            <h1>I'm Hasan <span>Kholmatov</span></h1>
-            <p>This is my personal cv webiste to showcase
-                information about myself
-            </p>
-            <button type="button" class="btn btn-outline-dark">Download CV</button>
-        </div>
-        <div class="images">
-            <img class="me" src="images/101.jpg" class="shape">
-        </div>
-
-        <div class="social">
+        <div>
+          <div class="detail">
+              <h1>I'm Hasan <span>Kholmatov</span></h1>
+              <p>This is my personal cv webiste to showcase
+                  information about myself
+              </p>
+              <button id="button" type="button" class="btn btn-outline-dark btn-download">Download CV</button>
+          </div>
+          <div class="images">
+              <img class="me" src="images/101.jpg" class="shape">
+          </div>
+          <div class="social">
             <a href="#"><i class="fab fa-dribbble"></i></a>
-           <a href="#"><i class="fab fa-instagram"></i></a>
-           <a href="#"><i class="fab fa-behance"></i></a>
+            <a href="#"><i class="fab fa-instagram"></i></a>
+            <a href="#"><i class="fab fa-behance"></i></a>
+          </div>
         </div>
     </div>
+    <div class="pop_up">
+      <img class="popup_img" src="images/cat.jpg">
+      <p class="popup_text">You think it works?</p>
+      <button  id="pop_btn" class="btn btn-success">Close</button>
+  </div>
 </body>
 </html>
